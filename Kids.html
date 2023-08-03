@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Department</title>
+    <style>
+        /* YHAAAA SEEEEE  */
+        .img {
+            width: 60px;
+            height: 60px;
+            border-radius: 60%;
+            margin: auto;
+            text-align: center;
+
+        }
+
+        h4 {
+            margin: 0;
+            font-size: medium;
+        }
+
+        .head {
+            margin: -8px;
+            text-align: center;
+            border: 1px solid khaki;
+            background-color: pink;
+            position: fixed;
+            width: 105%;
+        }
+
+        .profile img {
+            width: 39px;
+            height: 35px;
+            margin: -33px 10px;
+            float: left;
+            margin-left: 1116px;
+        }
+
+        .navigation {
+            border: 2px solid black;
+            margin-top: 80px;
+            height: 53px;
+            display: block;
+            position: fixed;
+            margin-right: 10px;
+
+        }
+
+        li {
+            float: left;
+            list-style: none;
+            display: block;
+
+        }
+
+        .l3 {
+            margin-right: 11px
+        }
+
+        .l1 {
+            margin: 0px 10px;
+            display: block;
+
+        }
+
+        .l2 {
+            margin: 0px 10px;
+            display: block;
+        }
+
+        .l5 {
+            margin: 0px 10px;
+            display: block;
+        }
+
+        .l8 {
+            margin: 0px 13px;
+            display: block;
+        }
+
+        .l6 {
+            margin: 0px 10px;
+            display: block;
+        }
+
+        .l7 {
+            margin: 0px 10px;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color:darkblue;
+            font-size: 19px;
+
+        }
+
+        a:hover {
+            color: blue;
+            background-color: lime;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        /* YHAAAA TAKKKKK  */
+        body {
+            background-color: cadetblue;
+        }
+        
+        .auto-slider{
+    position: absolute;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 10px 10px 20px;
+    background: rgb(5 20 225 / 22%);
+    width: 930px;
+    margin: 148px;
+    overflow: visible;
+    border-radius: 4px;
+    height: 400px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+ 
+}
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width:800%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s sliding ease infinite; 
+}
+
+/* Slider indicator */
+.indicator{
+    margin-left: 160px;
+    width: 946px;
+    /* max-width: 930px; */
+    height: 6px;
+    background: skyblue;
+    position: absolute;
+    bottom: 0;
+    
+    animation: indicating 6s ease infinite; 
+    
+}
+
+/* @keyframes sliding{  [[FOR 5 IMAGES]]
+            0%{left: 0%; }
+            20%{left: -100%;}
+            40%{left: -200%;}
+            60%{left: -300%;}
+            80%{left: -400%;}
+            100%{left: 0%;}} */
+
+            @keyframes sliding{
+            0%{left: 0%; }
+            20%{left: -140%;}
+            40%{left: -280%;}
+            60%{left: -420%;}
+            80%{left: -560%;}
+            100%{left: 0%;}
+            /* 120%{left: 0%;} */
+            
+            }
+            
+
+        @keyframes indicating{
+            from{
+                left: -120%;
+            }
+            to{
+                left: 0%;
+            }
+}  
+    </style>
+</head>
+<body>
+    <div class="head">
+        <img class="img"
+            src="https://cdn.dribbble.com/users/4843167/screenshots/14540242/media/a3147b494cb28f4a874ebebea0370844.jpg">
+        <h4>SOUTHGATE SHOPPING CENTRE</h4>
+    </div>
+
+    <nav class="navigation">
+        <ul>
+            <li class="l8"><a href="/index.html">Home</a></li>
+            <li class="l3"><a href="/aboutpage.html">About Us</a></li>
+            <li class="l1"><a href="/Men.html">Men</a></li>
+            <li class="l2"><a href="/Women.html">Women</a></li>
+            <li class="l5"><a href="/Kids.html">Kids</a></li>
+            <li class="l6"><a href="/Home-Living.html">Home & Living</a></li>
+            <li class="l7"><a href="/ContactUs.html">Contact us</a></li>
+            <li class="profile"><img src="https://www.shareicon.net/data/2016/09/01/822711_user_512x512.png">
+                <details>
+                    <summary
+                        style="color: rgba(255, 13, 13, 0.983); margin-left: 1109px; font-size: 13px; margin-top: 2px;">
+                        Profile</summary>
+                </details>
+            </li>
+        </ul>
+    </nav>
+    <section class="auto-slider">
+        <div id="slider">
+            <figure>
+                <img style="width: 1100px; height: 375px; margin-top: 0px;" src="https://www.elgabalyarchitects.com/wp-content/uploads/2.jpg" alt="Image">
+                <img style="width: 1350px; height: 375px; margin-top: 0px;" src="https://thumbs.dreamstime.com/b/childrens-winter-clothing-store-section-casual-children-shopping-mall-hong-kong-60717506.jpg" alt="Image">
+                <img style="width: 1280px; height: 375px; margin-top: 0px;" src="https://dress-trends.com/wp-content/uploads/2016/11/Kids-clothes-Trends-and-tendencies-2017-childrens-clothing-kids-wear-7.jpg" alt="Image">
+                <img style="width: 1100px; height: 375px; margin-top: 0px;" src="https://tse4.mm.bing.net/th?id=OIP.HlAf-pDz57BYmOvgsU8_wQHaHa&pid=Api&P=0" alt="Image">
+                <img style="width: 1200px; height: 375px; margin-top: 0px;" src="https://i.ytimg.com/vi/3xQh330OfvA/maxresdefault.jpg" alt="Image">
+                <!-- <img style="width: 1250px; height: 375px; margin-top: 0px;" src="https://ae01.alicdn.com/kf/HTB1UaTTO9zqK1RjSZFLq6An2XXaM/MiDeer-Kids-Wooden-Apple-Kiwi-Fruits-Spin-Toys-Colorful-Mini-Spinning-Tops-Fun-Classic-Toys-for.jpg" alt="Image"> -->
+                <!-- <img style="width: 230px; height: 375px; margin-top: 0px;" src="https://i.ytimg.com/vi/3xQh330OfvA/maxresdefault.jpg" alt="Image">  -->
+            </figure>
+            <div class="indicator"></div>
+</div>
+<p style="padding-top: 40px;text-align:center ; font-size: larger; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+    <b>Objective</b><br>The Kids’ Department serves individuals who are chronologically and developmentally ages 0-11 and their families. We strive to provide a welcoming space where families can learn and spend time together.
+    We provide regular programming for all kids of all ages as well as special programming throughout the year. For up-to-date information on programs currently being offered, or to sign-up for a program please visit the library’s web calendar. <br> &#10084 </p>
+</section>
+</body>
+</html>

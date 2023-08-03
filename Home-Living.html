@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home and Living Department</title>
+    <style>
+
+        body {
+            background-color:rgb(218, 177, 255);
+        }
+        /* YHAAAA SEEEEE  */
+         .img {
+            width: 60px;
+            height: 60px;
+            border-radius: 60%;
+            margin: auto;
+            text-align: center;
+
+        }
+
+        h4 {
+            margin: 0;
+            font-size: medium;
+        }
+
+        .head {
+            margin: -160px;
+            text-align: center;
+            border: 1px solid khaki;
+            background-color: pink;
+            position: fixed;
+            width: 127%;
+        }
+
+        .profile img {
+            width: 39px;
+            height: 35px;
+            margin: -33px 10px;
+            float: left;
+            margin-left: 1116px;
+        }
+
+        .navigation {
+            border: 2px solid black;
+            margin-top: -72px;
+            height: 53px;
+            display: block;
+            position: fixed;
+            margin-right: 10px;
+
+        }
+
+        li {
+            float: left;
+            list-style: none;
+            display: block;
+
+        }
+
+        .l3 {
+            margin-right: 11px
+        }
+
+        .l1 {
+            margin: 0px 10px;
+            display: block;
+
+        }
+
+        .l2 {
+            margin: 0px 10px;
+            display: block;
+        }
+
+        .l5 {
+            margin: 0px 10px;
+            display: block;
+        }
+
+        .l8 {
+            margin: 0px 17px;
+            display: block;
+        }
+
+        .l6 {
+            margin: 0px 10px;
+            display: block;
+        }
+
+        .l7 {
+            margin: 0px 10px;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color:rgb(141, 3, 3);
+            font-size: 19px;
+
+        }
+
+        a:hover {
+            color: blue;
+            background-color: lime;
+            border-radius: 15px;
+            cursor: pointer;
+        } 
+
+        /* YHAAAA TAKKKKK  */
+
+        .slider {
+        width: 800px;
+        height: 400px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 160px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 2400px;
+        background-color: pink;
+        height: 400px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -800px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1600px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: lightgreen;
+      }
+    </style>
+</head>
+<body>
+     <div class="head">
+        <img class="img"
+            src="https://cdn.dribbble.com/users/4843167/screenshots/14540242/media/a3147b494cb28f4a874ebebea0370844.jpg">
+        <h4>SOUTHGATE SHOPPING CENTRE</h4>
+    </div>
+
+    <nav class="navigation">
+        <ul>
+            <li class="l8"><a href="/index.html">Home</a></li>
+            <li class="l3"><a href="/aboutpage.html">About Us</a></li>
+            <li class="l1"><a href="/Men.html">Men</a></li>
+            <li class="l2"><a href="/Women.html">Women</a></li>
+            <li class="l5"><a href="/Kids.html">Kids</a></li>
+            <li class="l6"><a href="/Home-Living.html">Home & Living</a></li>
+            <li class="l7"><a href="/ContactUs.html">Contact us</a></li>
+            <li class="profile"><img src="https://www.shareicon.net/data/2016/09/01/822711_user_512x512.png">
+                <details>
+                    <summary
+                        style="color: rgba(255, 13, 13, 0.983); margin-left: 1109px; font-size: 13px; margin-top: 2px;">
+                        Profile</summary>
+                </details>
+            </li>
+        </ul>
+    </nav> 
+
+    <div class="slider">
+        <span id="slide-1"></span>
+        <span id="slide-2"></span>
+        <span id="slide-3"></span>
+        <div class="image-container">
+          <img style="width: 800px; height: 400px;" src="https://designwarehouse.co.nz/wp-content/uploads/2019/02/Ibiza-Outdoor-Furniture-Collection-By-Design-Warehouse.jpg" class="slide" width="800" height="400" />
+          <img style="width: 800px; height: 400px; " src="https://antonovich-design.ae/uploads/gallery/full58adae1642b89.jpg" class="slide" width="800" height="400" />
+          <img style="width: 800px; height: 400px; " src="http://i3.ypcdn.com/blob/a4363827438529d93f3a549e09c7edc9f7e0f650_1200.jpg" class="slide" width="800" height="400" />
+        </div>
+        <div class="buttons">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+        </div>
+      </div>
+      <p style="padding-top: 100px;text-align:center ; font-size: larger; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: darkgreen;"><b>" All Home Living’s Exclusive Home Decor & Home Technology "</b><br>We love styling our homes to beget positive vibes. Visit All Home Living’s online store for exquisite Home Decorations and Technology. You are sure to get intrigued by the designer Mirrored Furniture, Wall Accents, Décor Vases, Lightings, and trending Home Technology.<br>
+        Customer Satisfaction is our Top Priority, we at All Home Living offer our visitors over thousands of products in a world-class ambience and the list is growing every day.
+        </p>
+    
+</body>
+</html>

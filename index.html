@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Site</title>
+    <style>
+
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 60%;
+            margin: auto;
+            text-align: center;
+          
+        }
+        .head {
+            margin: -8px;
+            text-align: center;
+            border: 1px solid khaki;
+            background-color:pink;
+            position: fixed;
+            width: 1264px;
+            
+            }
+
+        .navigation {
+            border: 2px solid black;
+            margin-top: 78px;
+            height: 53px;
+            display: block;
+            position: fixed;
+            margin-right: 10px;
+          
+        }
+
+        li {
+            float: left;
+            list-style: none;
+            display: block;
+            
+        }
+        .l3 {
+            margin-right: 11px
+        }
+
+        .l1 {
+            margin: 0px 10px;
+            display: block;
+            
+        }
+        .l2 {
+            margin: 0px 10px;
+            display: block;
+        }
+        
+        .l5 {
+            margin: 0px 10px;
+            display: block;
+        }
+        .l6 {
+            margin: 0px 10px;
+            display: block;
+        }
+        .l7 {
+            margin: 0px 10px;
+            display: block;
+        }
+        a {
+            text-decoration: none;
+            color: lime;
+            font-size: 19px;
+            
+        }
+
+        a:hover{
+            color: blue;
+            background-color: lime;
+            border-radius: 15px;
+        }
+
+        h4 {
+            margin: 0;
+            font-size: medium;
+        }
+
+        .background-wrap {
+
+            position: fixed;
+            z-index: -1000;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+        }
+        #video-bg-element {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-height: 100%;
+            min-width: 100%;
+        }
+
+         .content {
+            color: white;
+            position: absolute;
+            min-height: 100%;
+            width: 100%;
+            z-index: 1000;
+            margin-top: 140px;
+            
+            
+            } 
+
+            .profile img {
+                width: 39px;
+                height: 35px;
+                margin: -33px 10px;
+                float: left;
+                margin-left: 1116px;
+            
+                }
+            .name {
+                color: red;
+                margin: 10px;
+                font-size: larger;
+                font-style: bold;
+                font-family:cursive;
+            }
+            .email {
+                color: red;
+                margin: 10px;
+                font-size: larger;
+                font-style: bold;
+                margin-top: -10px;
+                font-family:cursive;
+            }
+
+            .mob {
+                color: red;
+                margin: 10px;
+                font-size: larger;
+                font-style: bold;
+                margin-top: -10px;
+                font-family:cursive;
+            }
+            /* h5 {
+                color: rgb(38, 181, 237);
+                margin:auto;
+                font-size: larger;
+                width: 130px;
+                border: 1px solid black;
+                background-color: pink;
+            } */
+            .gender {
+                color: red;
+                margin: 10px;
+                font-size: larger;
+                font-style: bold;
+                margin-top: -10px;
+                font-family:cursive;
+            }
+            .address {
+                color: red;
+                margin: 10px;
+                font-size: larger;
+                font-style: bold;
+                margin-top: -10px;
+                font-family:cursive;
+            }
+            .submit {
+                color: red;
+                margin: 10px;
+                font-size: larger;
+                font-style: bold;
+                margin-top: -10px;
+                font-family:cursive;
+            }
+            .formBorder {
+                border: 2px solid blueviolet;
+                width: 500px;
+                background-color: khaki;
+                margin: auto;
+            }
+
+            /* .about img {
+                width: 200px;
+                height: 200px;
+                border-radius: 0px;
+                margin-top: -18px; } */
+            
+            h1 {
+                color:black;
+                margin: auto;
+                width: 184px;
+                border: 2px solid black; 
+                background-color: blue;
+                margin-top: 20px;    
+            }
+
+            .button {
+                background-color: orange; 
+                margin: 3px 213px; 
+                width: 75px; 
+                height: 30px;
+                cursor: pointer;
+                font-weight: 600;
+                
+            }
+
+            .button:hover {
+                cursor:grab;
+                color: rgb(5, 181, 5);
+                background-color: purple;
+                border: 2px solid black;
+            }
+            /* .about {
+                color: black;
+                
+            } */
+           
+            
+            
+    </style>
+</head>
+<body>
+    
+<div class="head">
+    <img src="https://cdn.dribbble.com/users/4843167/screenshots/14540242/media/a3147b494cb28f4a874ebebea0370844.jpg">
+    <h4>SOUTHGATE SHOPPING CENTRE</h4>
+</div>
+
+<nav class="navigation">
+    <ul>
+        <li class="l3"><a href="/aboutpage.html">About Us</a></li>
+        <li class="l1"><a href="/Men.html">Men</a></li>
+        <li class="l2"><a href="/Women.html">Women</a></li>
+        <li class="l5"><a href="/Kids.html">Kids</a></li>
+        <li class="l6"><a href="/Home-Living.html">Home & Living</a></li>
+        <li class="l7"><a href="/ContactUs.html">Contact us</a></li>
+        <li class="profile"><img src ="https://www.shareicon.net/data/2016/09/01/822711_user_512x512.png"><details>
+            <summary style="color: rgba(216, 239, 223, 0.983); margin-left: 1109px; font-size: 13px; margin-top: 2px;">Profile</summary>
+            <!-- <h5>"Fill this form"</h5>
+            <form action="backened.php">
+            <div class="name">
+                Name : <input type="text" name="myName">
+            </div>
+            <br>
+        <div class="email">
+            Email : <input type="email" name="myEmail">
+        </div><br>
+        <div class="mob">
+            Contact No. : <input type="number" name="myMob">
+        </div>
+        <br>
+        <div class="gender">
+            Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div class="address">
+            Address : <input type="text,number" name="myAdd">
+        </div>
+        <br>
+        <div class="submit">
+            Submit : <input type="submit" value="Submit Now">
+            </div>
+            
+    </form> -->
+        </details></li>
+    </ul>
+</nav>
+
+<div class="background-wrap">
+    <video id="video-bg-element" preload="auto" autoplay="true" loop="loop" muted="muted"><source src="video_preview_h264.mp4" type="video/mp4">Video not supported</video>
+</div>
+
+<div class="content">
+    <h1><b>Sign Up Page</b></h1>
+    <!-- <h5>"Fill this form"</h5> -->
+            <form class="formBorder" action="backened.php">
+            <div class="name">
+                Name : <input type="text" name="myName" placeholder="Enter you full name">
+            </div>
+            <br>
+        <div class="email">
+            Email : <input type="email" name="myEmail" placeholder="E-mail address">
+        </div><br>
+        <div class="mob">
+            Contact No. : <input type="text" name="myMob" placeholder="+91 &nbsp;">
+        </div>
+        <br>
+        <div class="gender">
+            Gender : Male <input type="radio" name="myGender" style="color: cyan"> Female <input type="radio" name="myGender" style="color: cyan">
+        </div>
+        <br>
+        <div class="address">
+            Address : <input type="text" name="myAdd" placeholder="Your current address">
+        </div>
+        <br>
+        <div class="mob">
+            Aadhar Card No. : <input type="text" name="myMob" placeholder="_ _ _ _ &nbsp; _ _ _ _ &nbsp; _ _ _ _ &nbsp;">
+        </div>
+        <br>
+        <div class="mob">
+            Verification Code : <input type="text" name="myCode"
+            placeholder="Enter 4-digit no.">
+        </div>
+        <br>
+        <div class="submit">
+            Submit : <input type="submit" value="Submit Now">
+            </div>
+            <br>
+        <div class="submit">
+            Reset : <input type="reset" value="Reset Now">
+            </div>
+
+            <button class="button">Sign Up</button>
+            
+    </form>
+    
+</div>
+</body>
+</html>

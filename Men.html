@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men Department</title>
+    <style>
+        /* YHAAAA SEEEEE  */
+        .img {
+            width: 60px;
+            height: 60px;
+            border-radius: 60%;
+            margin: auto;
+            text-align: center;
+
+        }
+        h4 {
+            margin: 0;
+            font-size: medium;
+        }
+
+        .head {
+            margin: -190.5px;
+            text-align: center;
+            border: 1px solid khaki;
+            background-color: pink;
+            position: fixed;
+            width: 130%;
+            }
+        .profile img {
+            width: 39px;
+            height: 35px;
+            margin: -33px 10px;
+            float: left;
+            margin-left: 1116px;
+        }
+        .navigation {
+            border: 2px solid black;
+            margin-top: -105px;
+            height: 53px;
+            display: block;
+            position: fixed;
+            margin-right: 10px;
+
+        }
+
+        li {
+            float: left;
+            list-style: none;
+            display: block;
+
+        }
+
+        .l3 {
+            margin-right: 11px
+        }
+
+        .l1 {
+            margin: 0px 10px;
+            display: block;
+
+        }
+
+        .l2 {
+            margin: 0px 10px;
+            display: block;
+        }
+
+        .l5 {
+            margin: 0px 10px;
+            display: block;
+        }
+        .l8 {
+            margin: 0px 17px;
+            display: block;
+        }
+
+        .l6 {
+            margin: 0px 10px;
+            display: block;
+        }
+
+        .l7 {
+            margin: 0px 10px;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color: darkblue;
+            font-size: 19px;
+
+        }
+
+        a:hover {
+            color: blue;
+            background-color: lime;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        /* YHAAAA TAKKKKK  */
+
+    .slideshow{
+        margin: 190px auto;
+    padding-top: 30px;
+    height: 550px;
+    perspective: 1000px;
+  
+ 
+}
+body {
+    background-color:rgb(206, 205, 231);
+    
+}
+.content{
+  margin: auto;
+  width: 180px;
+  perspective: 1000px;
+  position:relative;
+  padding-top: 80px;
+  transform-style: preserve-3d;
+}
+.slider-content{
+  width: 100%;
+  position:absolute;
+  float:right;
+  animation: rotate 15s infinite linear;
+  transform-style: preserve-3d;
+}
+.slider-content:hover{
+  cursor: pointer;
+  animation-play-state: paused;
+}
+.slider-content figure{
+  width:180px;
+  height:120px;
+  border:1px solid #555;
+  overflow:hidden;
+  position:absolute;
+}
+.slider-content img{
+  image-rendering: auto;
+  transition: all 300ms;
+  width: 100%;
+  height: 100%;
+}
+.slider-content img:hover{
+   transform: scale(1.2); 
+   transition: all 300ms; 
+} 
+.shadow{ 
+   position: absolute; 
+   box-shadow: 0px 0px 0px #000; 
+}
+.slider-content figure:nth-child(1){
+  transform:rotateY(0deg) translateZ(300px);
+}
+ 
+.slider-content figure:nth-child(2){
+  transform:rotateY(40deg) translateZ(300px);
+}
+.slider-content figure:nth-child(3){
+  transform:rotateY(80deg) translateZ(300px);
+}
+.slider-content figure:nth-child(4){
+  transform:rotateY(120deg) translateZ(300px);
+}
+.slider-content figure:nth-child(5){
+  transform:rotateY(160deg) translateZ(300px);
+}
+.slider-content figure:nth-child(6){
+  transform:rotateY(200deg) translateZ(300px);
+}
+.slider-content figure:nth-child(7){
+  transform:rotateY(240deg) translateZ(300px);
+}
+.slider-content figure:nth-child(8){
+  transform:rotateY(280deg) translateZ(300px);
+}
+.slider-content figure:nth-child(9){
+  transform:rotateY(320deg) translateZ(300px);
+}
+@keyframes rotate {
+  from{
+    transform: rotateY(0deg);
+  }
+  to{
+      transform: rotateY(360deg);
+  }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="head">
+        <img class="img"
+            src="https://cdn.dribbble.com/users/4843167/screenshots/14540242/media/a3147b494cb28f4a874ebebea0370844.jpg">
+        <h4>SOUTHGATE SHOPPING CENTRE</h4>
+    </div>
+
+    <nav class="navigation">
+        <ul>
+            <li class="l8"><a href="/index.html">Home</a></li>
+            <li class="l3"><a href="/aboutpage.html">About Us</a></li>
+            <li class="l1"><a href="/Men.html">Men</a></li>
+            <li class="l2"><a href="/Women.html">Women</a></li>
+            <li class="l5"><a href="/Kids.html">Kids</a></li>
+            <li class="l6"><a href="/Home-Living.html">Home & Living</a></li>
+            <li class="l7"><a href="/ContactUs.html">Contact us</a></li>
+            <li class="profile"><img src="https://www.shareicon.net/data/2016/09/01/822711_user_512x512.png">
+                <details>
+                    <summary
+                        style="color: rgba(255, 13, 13, 0.983); margin-left: 1109px; font-size: 13px; margin-top: 2px;">
+                        Profile</summary>
+                </details>
+            </li>
+        </ul>
+    </nav>
+    <section class="slideshow">
+        <div class="content">
+           <div class="slider-content">
+              <figure class="shadow"><img src="https://i.pinimg.com/originals/b9/3a/60/b93a60f12ff6e002e6d4af555f1f4921.jpg"></figure>
+              <figure class="shadow"><img src="https://i1.wp.com/newsismybusiness.com/wp-content/uploads/2014/09/Mens-Wearhouse-Plaza-Carolina.jpg?fit=504%2C302&ssl=1"></figure>
+              <figure class="shadow"><img src="https://tse1.mm.bing.net/th?id=OIP.T5hUcTQq9cOp7HLmKFhhCAHaE7&pid=Api&P=0"></figure>
+              <figure class="shadow"><img src="https://dynamicmedia.zuza.com/zz/m/original_/c/c/cc64817a-bb64-4895-a62b-55e2130e00b0/RH_Newbiz_Hillcrestmall_4_060519___Super_Portrait.jpg"></figure>
+              <figure class="shadow"><img src="https://tse1.mm.bing.net/th?id=OIP.t-P-LvokSlV75TLFfVQfXwHaE-&pid=Api&P=0"></figure>
+              <figure class="shadow"><img src="http://www.bokaromall.com/wp-content/uploads/2017/01/DSC07598.jpg"></figure>
+              <figure class="shadow"><img src="https://i0.wp.com/cleffairy.com/wp-content/uploads/2019/05/20190504_155935.jpg"></figure>
+              <figure class="shadow"><img src="https://4.bp.blogspot.com/-2vKMlOMLeTk/UYnmlg17HRI/AAAAAAAAKwY/pXBEq99jknY/s1600/IMAG0290.jpg"></figure>
+              <figure class="shadow"><img src="https://3.bp.blogspot.com/-iNtroEflHZs/WcryPzZ07CI/AAAAAAABNnE/bXjPVD0AXpMlZSEUtvgvJJkQN5mItuakwCLcBGAs/s1600/pub%2BSept17.jpg"></figure>
+              <figure class="shadow"><img src="https://imgmedia.lbb.in/media/2019/09/5d88f4b0d4a0c873a2dc0718_1569256624018.jpg"></figure>
+           </div>
+        </div>
+     </section>
+     <p style="text-align:center ; font-size: larger; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:teal; margin-top: -300px;"><b>" The Goal "</b> <br>
+        To identify the paint points of men's shopping experience, to discover the desirable shopping experience's features, and then to set up the design guideline of a shopping mall for men. <br>
+    In malls, people forget about their worries and indulge in amusement and shopping bargain. There are plenty of things in a mall. One can play in arcades, watch movies, eat best of the food, and stroll around the shops after shopping and eating. Today’s most modern shopping malls provide information kiosks, laundry services, public restrooms, gift wrapping services, tours and travel booking counters and supervised childcare besides traditional means of shopping and leisure. All these avenues accessible to visitors are basically the various components of a mall.</p>
+    
+</body>
+</html>
